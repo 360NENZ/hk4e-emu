@@ -10,7 +10,7 @@ Setup your golang environment, then run the following commands to build binaries
 
 ```bash
 $ mkdir -p $GOPATH/src/github.com/360NENZ
-$ cd $GOPATH/src/github.com/teyvat-helper
+$ cd $GOPATH/src/github.com/360NENZ
 $ git clone https://github.com/360NENZ/teyvat-helper-hk4e-emu.git
 $ cd hk4e-emu
 $ go build -trimpath -ldflags "-s -w" -o bin/client cmd/client/main.go
